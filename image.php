@@ -14,11 +14,11 @@ if ( $deployment == 'blue') {
 }
 
 // Draw a filled rectangle blue
-imagefilledrectangle($im, 0, 0, 199, 199, $color);
+//imagefilledrectangle($im, 0, 0, 199, 199, $color);
 
 //draw a white rectangle with blue line on the outline
-//ImageFillToBorder($im, 0, 0, $white, $white);
-//imageRectangle($im, 0, 0, 199, 199, $color);
+ImageFillToBorder($im, 0, 0, $white, $white);
+imageRectangle($im, 0, 0, 199, 199, $color);
 
 
 // Save the image
